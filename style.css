@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2.5rem;
+    background: linear-gradient(135deg,#dcdbfb,#42063c);
+    height: 94vh;
+    
+}
+.dabba{
+    
+    justify-content: center;
+    
+    border: 2px solid black;
+    border-radius: 10px;
+    height: 650px;
+    width: 500px;
+    background: linear-gradient(135deg,#6f45ed,#e83db2);
+}
+.searchbar{
+    display: flex;
+    margin-top: 25px;
+    margin-left: 80px;
+}
+.search{
+    width: 250px;
+    height: 45px;
+    margin-left: 5px;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+    padding-left: 15px;
+    
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    background-color: #fff;
+    margin-left: 45px;
+    cursor: pointer;
+    
+}
+.search:hover{
+    border: 3px solid black;
+}
+.weather-icon{
+    margin-top: 40px;
+    width: 200px;
+    height: 200px;
+}
+.weather{
+    display: flex;
+    justify-content: center;
+}
+.text{
+    margin-top: 10px;
+    color: whitesmoke;
+    margin-left: 200px;
+
+}
+.temp{
+    font-size: 55px;
+
+}
+.city{
+    font-size: 30px;
+}
+.details{
+    display: flex;
+    gap: 120px;
+    margin-top: 80px;
+}
+.b1{
+    display: flex;
+}
+.b2{
+    display: flex;
+}
+.ox{
+    color: #f1eded;
+
+}
+.t1{
+    font-size: 40px;
+}
+.t3{ font-size: 40px;
+
+}
